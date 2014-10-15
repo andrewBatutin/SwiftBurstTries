@@ -8,26 +8,30 @@
 
 import Foundation
 
-enum AccessTrie<T> {
-    case TrieBST(BST<T>)
-    case TrieAT(AccessTrieCol<T>)
+enum AccessTrieElement<T>{
+    case Empty
+    case BSTElement(BST<T>)
+    case AccessTrie(Array<AccessTrieElement>)
 }
 
-enum AccessTrieCol<T>{
-    case ATC([AccessTrie<T>])
-}
+let trie:Array<AccessTrieElement<Character>> = [AccessTrieElement](count: 27, repeatedValue: AccessTrieElement.Empty)
 
-
-func empty<T>() -> AccessTrieCol<T>{
-    return AccessTrieCol.ATC([])
-}
-
-func append<T>(value : AccessTrie<T>, col: AccessTrieCol<T>) -> AccessTrieCol<T>{
-    switch col{
-    case var AccessTrieCol.ATC( x ):
-        x.append(value)
-        return AccessTrieCol.ATC(x)
-    default:
-        assert(false, "The impossible occurred")
+func printAccessTrie<T>(trie:Array<AccessTrieElement<T>>) -> String{
+    var res = ""
+    for elem in trie{
+        switch elem{
+        case AccessTrieElement.Empty:
+            res += "Empty; "
+        case let AccessTrieElement.BSTElement(x):
+            res += "BST Elem \(x); "
+        case let AccessTrieElement.AccessTrie(x):
+            res += "|Array " + printAccessTrie(x) + ";|"
+        default:
+            res += "Some Shit; "
+        }
     }
+    return res
 }
+    
+
+

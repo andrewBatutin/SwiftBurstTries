@@ -27,8 +27,12 @@ class AccessTrieTest: XCTestCase {
     }
     
     func testEmpty(){
-        let a:AccessTrieCol<String> = empty()
-        let f =  append(AccessTrie.TrieBST(BST.Leaf), a)
+        var a:[AccessTrieElement<Character>] = trie
+        a[0] = AccessTrieElement.BSTElement(BST.Leaf)
+        var b:[AccessTrieElement<Character>] = trie
+        b[5] = AccessTrieElement.BSTElement(BST.Node(Box(BST.Leaf), Box("A"), Box(BST.Leaf)))
+        a[1] = AccessTrieElement.AccessTrie( b)
+        XCTAssert(false, "\(printAccessTrie(a))")
 
     }
 
