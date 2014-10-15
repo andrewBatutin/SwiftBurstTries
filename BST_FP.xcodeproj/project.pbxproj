@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B79D4AB19EE9905003FF703 /* AlphabetMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79D4AA19EE9905003FF703 /* AlphabetMap.swift */; };
+		7B79D4AC19EE9905003FF703 /* AlphabetMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79D4AA19EE9905003FF703 /* AlphabetMap.swift */; };
 		7B7B4A3B19EBF96000EFACC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B4A3A19EBF96000EFACC2 /* AppDelegate.swift */; };
 		7B7B4A3D19EBF96000EFACC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B4A3C19EBF96000EFACC2 /* ViewController.swift */; };
 		7B7B4A4019EBF96000EFACC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B4A3E19EBF96000EFACC2 /* Main.storyboard */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B79D4AA19EE9905003FF703 /* AlphabetMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetMap.swift; sourceTree = "<group>"; };
 		7B7B4A3519EBF96000EFACC2 /* BST_FP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BST_FP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7B4A3919EBF96000EFACC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B7B4A3A19EBF96000EFACC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 				7B7B4A5D19EBFAB500EFACC2 /* Box.swift */,
 				7BDC43FC19ED4C2A00550BCE /* AccessTrie.swift */,
 				7BDC43FF19ED4D5B00550BCE /* BurstTrie.swift */,
+				7B79D4AA19EE9905003FF703 /* AlphabetMap.swift */,
 			);
 			path = BST_FP;
 			sourceTree = "<group>";
@@ -238,6 +242,7 @@
 				7B7B4A5E19EBFAB500EFACC2 /* Box.swift in Sources */,
 				7BDC43FD19ED4C2A00550BCE /* AccessTrie.swift in Sources */,
 				7B7B4A5B19EBF97500EFACC2 /* BST.swift in Sources */,
+				7B79D4AB19EE9905003FF703 /* AlphabetMap.swift in Sources */,
 				7BDC440019ED4D5B00550BCE /* BurstTrie.swift in Sources */,
 				7B7B4A3B19EBF96000EFACC2 /* AppDelegate.swift in Sources */,
 			);
@@ -250,6 +255,7 @@
 				7B7B4A5F19EBFAB500EFACC2 /* Box.swift in Sources */,
 				7B7B4A6119EBFB2B00EFACC2 /* BSTTest.swift in Sources */,
 				7BDC43FE19ED4C2A00550BCE /* AccessTrie.swift in Sources */,
+				7B79D4AC19EE9905003FF703 /* AlphabetMap.swift in Sources */,
 				7B7B4A5119EBF96000EFACC2 /* BST_FPTests.swift in Sources */,
 				7BDC440319ED587000550BCE /* AccessTrieTest.swift in Sources */,
 				7BDC440119ED4D5B00550BCE /* BurstTrie.swift in Sources */,

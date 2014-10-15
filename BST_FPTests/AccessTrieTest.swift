@@ -70,6 +70,16 @@ class AccessTrieTest: XCTestCase {
         XCTAssert(false, "\(printAccessTrie(top))")
 
     }
+    
+    func testCharMapping(){
+        let a = letterIndex("A")
+        XCTAssert(a == 1, "a is 1")
+        let z = letterIndex("Z")
+        XCTAssert(z == 26, "z is 26")
+        let shit = letterIndex("!")
+        XCTAssert(shit == -1, "shit is -1")
+
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
