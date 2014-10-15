@@ -35,6 +35,41 @@ class AccessTrieTest: XCTestCase {
         XCTAssert(false, "\(printAccessTrie(a))")
 
     }
+    
+    func testConstructBurstTrie(){
+        let tree:BST<String> = BST.Leaf
+        var mutTree = add("RE", tree)
+        mutTree = add("NT", mutTree)
+        mutTree = add("ST", mutTree)
+
+        let x = preatyPrint( mutTree ,"")
+        
+        var a:[AccessTrieElement<String>] = trieStr
+        a[5] = AccessTrieElement.BSTElement(mutTree)
+        
+        var treeN = add("N", tree)
+        var b:[AccessTrieElement<String>] = trieStr
+        b[1] = AccessTrieElement.BSTElement(treeN)
+        
+        var c:[AccessTrieElement<String>] = trieStr
+        c[25] = AccessTrieElement.AccessTrie(b)
+        
+        
+        var treeC = add("R", tree)
+        treeC = add("ME", treeC)
+        treeC = add("T", treeC)
+        treeC = add("VE", treeC)
+        c[1] = AccessTrieElement.BSTElement(treeC)
+        
+        
+        var top:[AccessTrieElement<String>] = trieStr
+        top[23] = AccessTrieElement.AccessTrie(a)
+        
+        top[3] = AccessTrieElement.AccessTrie(c)
+        
+        XCTAssert(false, "\(printAccessTrie(top))")
+
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

@@ -16,6 +16,8 @@ enum AccessTrieElement<T>{
 
 let trie:Array<AccessTrieElement<Character>> = [AccessTrieElement](count: 27, repeatedValue: AccessTrieElement.Empty)
 
+let trieStr:Array<AccessTrieElement<String>> = [AccessTrieElement](count: 27, repeatedValue: AccessTrieElement.Empty)
+
 func printAccessTrie<T>(trie:Array<AccessTrieElement<T>>) -> String{
     var res = ""
     for elem in trie{
@@ -23,9 +25,9 @@ func printAccessTrie<T>(trie:Array<AccessTrieElement<T>>) -> String{
         case AccessTrieElement.Empty:
             res += "Empty; "
         case let AccessTrieElement.BSTElement(x):
-            res += "BST Elem \(x); "
+            res += preatyPrint(x, "") + ";"
         case let AccessTrieElement.AccessTrie(x):
-            res += "|Array " + printAccessTrie(x) + ";|"
+            res += "[Array " + printAccessTrie(x) + "]\n"
         default:
             res += "Some Shit; "
         }
