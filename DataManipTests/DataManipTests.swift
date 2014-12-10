@@ -81,10 +81,20 @@ class DataManipTests: XCTestCase {
         let c = BinaryTree(n:1)
         a.left = b
         a.right = c
-        a.prettyPrint()
+        let d = BinaryTree(n: 10)
+        d.left = a
+        d.right = BinaryTree(n: 4)
+        let ans =  d.prettyPrint()
+        println(ans.reduce("") {$0 + $1})
         XCTAssertEqual(3, a.data!, "")
     }
-
+    
+    func testHeadTailPrint(){
+        let a = ["1", "2", "3"]
+        let o = BinaryTree(n:3)
+        println(o.leftLeafProcess(a))
+        
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

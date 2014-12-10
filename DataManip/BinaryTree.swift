@@ -20,6 +20,15 @@ where
 ls     = treeIndent $ lb
 */
 
+import Foundation
+
+extension Array {
+    var match : (head: T, tail: [T])? {
+        return (count > 0) ? (self[0],Array(self[1..<count])) : nil
+    }
+    
+}
+
 class BinaryTree<T:Comparable> {
     var data: T?
     var left: BinaryTree<T>?
@@ -46,25 +55,37 @@ class BinaryTree<T:Comparable> {
         }
     }
     
-    func prettyPrint() {
+    func prettyPrint() -> [String]{
         switch(self.data, self.left, self.right) {
         case let (.Some(data), .Some(l), .Some(r)):
-            println("--\(data)\n")
-            l.prettyPrint()
-            r.prettyPrint()
+            let res = ["--\(data)\n"] +
+            l.prettyPrint().map({"  |\n  |" + $0}) +
+            r.prettyPrint().map({"  |\n  |" + $0})
+            return res
         case let (.Some(data), .Some(l), .None):
-            println("--\(data)\n")
-            l.prettyPrint()
+            let res = ["--\(data)\n"] +
+            l.prettyPrint().map({"  |\n  |" + $0})
         case let (.Some(data), .None, .Some(r)):
-            println("--\(data)\n")
-            r.prettyPrint()
+            let res = ["--\(data)\n"] +
+            r.prettyPrint().map({"  |\n  |" + $0})
         case let (.Some(data), .None, .None):
-            println("--\(data)\n  |-- /-\n  '-- /-\n")
+            let res = ["--\(data)\n      |-- /-\n      '-- /-\n"]
+            return res
         case let (.None, .None, .None):
-            println("None!")
+            return ["None!"]
         default:
             assertionFailure("should not get here")
+            return [""]
         }
-
+        return ["WTF"]
     }
+    
+    func leftLeafProcess(array:Array<String>)->Array<String>{
+        if let (head,tail) = array.match {
+            return ["  '" + head] + tail.map{"  " + $0}
+        } else {
+            return []
+        }
+    }
+
 }

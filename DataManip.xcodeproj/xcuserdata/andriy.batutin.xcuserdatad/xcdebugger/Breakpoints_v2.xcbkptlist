@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DataManip/BinaryTree.swift"
-            timestampString = "439903616.940934"
+            timestampString = "439918368.060902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "insert(_:)"
             landmarkType = "5">
             <Locations>
@@ -299,6 +299,68 @@
                   startingLineNumber = "33"
                   endingLineNumber = "33"
                   offsetFromSymbolStart = "171">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManip/BinaryTree.swift"
+            timestampString = "439918368.060902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "prettyPrint()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManip/BinaryTree.swift"
+            timestampString = "439918368.060902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "prettyPrint()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.BinaryTree.prettyPrint &lt;A : Swift.Comparable&gt;(DataManip.BinaryTree&lt;A&gt;)() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/BinaryTree.swift"
+                  timestampString = "439911311.447918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "11681">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManipTests.BinaryTree.prettyPrint &lt;A : Swift.Comparable&gt;(DataManipTests.BinaryTree&lt;A&gt;)() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "DataManipTests"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/BinaryTree.swift"
+                  timestampString = "439911311.968915"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "11681">
                </Location>
             </Locations>
          </BreakpointContent>
