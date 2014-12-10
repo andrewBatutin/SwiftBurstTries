@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManipTests/DataManipTests.swift"
+            timestampString = "439143993.0211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "DataManipTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManipTests.DataManipTests.testExample (DataManipTests.DataManipTests)() -&gt; ()"
+                  moduleName = "DataManipTests"
+                  urlString = "file:///Users/andriy.batutin/Documents/sandbox/DataManip/DataManipTests/DataManipTests.swift"
+                  timestampString = "439143663.987618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "8043">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManipTests.DataManipTests.(testExample (DataManipTests.DataManipTests) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "DataManipTests"
+                  urlString = "file:///Users/andriy.batutin/Documents/sandbox/DataManip/DataManipTests/DataManipTests.swift"
+                  timestampString = "439143663.987865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.Array&lt;Swift.Character&gt;, @owned DataManipTests.ImageControlsModel) -&gt; (@owned Swift.Array&lt;Swift.Character&gt;) to @callee_owned (@in Swift.Array&lt;Swift.Character&gt;, @in DataManipTests.ImageControlsModel) -&gt; (@out Swift.Array&lt;Swift.Character&gt;)"
+                  moduleName = "DataManipTests"
+                  urlString = "file:///Users/andriy.batutin/Documents/sandbox/DataManip/DataManipTests/DataManipTests.swift"
+                  timestampString = "439143663.988132"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "11">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManipTests/DataManipTests.swift"
+            timestampString = "439211272.300223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setUp()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManip/AppDelegate.swift"
+            timestampString = "439212159.090167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testSwiftSucks()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManip/AppDelegate.swift"
+            timestampString = "439212222.405685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "testSwiftSucks()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.testSwiftSucks (DataManip.AppDelegate)() -&gt; ()"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.802138"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.(testSwiftSucks (DataManip.AppDelegate) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.802451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.(testSwiftSucks (DataManip.AppDelegate) -&gt; () -&gt; ()).(closure #2)"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.802851"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.(testSwiftSucks (DataManip.AppDelegate) -&gt; () -&gt; ()).(closure #3)"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.803128"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManip/AppDelegate.swift"
+            timestampString = "439212222.99619"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "testSwiftSucks()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.testSwiftSucks (DataManip.AppDelegate)() -&gt; ()"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.829244"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.(testSwiftSucks (DataManip.AppDelegate) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.829425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.(testSwiftSucks (DataManip.AppDelegate) -&gt; () -&gt; ()).(closure #2)"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.829674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.AppDelegate.(testSwiftSucks (DataManip.AppDelegate) -&gt; () -&gt; ()).(closure #3)"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/AppDelegate.swift"
+                  timestampString = "439212243.82993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataManip/BinaryTree.swift"
+            timestampString = "439903616.940934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "insert(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManip.BinaryTree.insert &lt;A : Swift.Comparable&gt;(DataManip.BinaryTree&lt;A&gt;)(A) -&gt; ()"
+                  moduleName = "DataManip"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/BinaryTree.swift"
+                  timestampString = "439903793.823552"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManipTests.BinaryTree.insert &lt;A : Swift.Comparable&gt;(DataManipTests.BinaryTree&lt;A&gt;)(A) -&gt; ()"
+                  moduleName = "DataManipTests"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/BinaryTree.swift"
+                  timestampString = "439903794.01567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataManipTests.BinaryTree.insert &lt;A : Swift.Comparable&gt;(DataManipTests.BinaryTree&lt;A&gt;)(A) -&gt; ()"
+                  moduleName = "DataManipTests"
+                  urlString = "file:///Users/andriy.batutin/Downloads/DataManip/DataManip/BinaryTree.swift"
+                  timestampString = "439903794.01602"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "171">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
