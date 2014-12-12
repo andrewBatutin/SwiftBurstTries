@@ -123,6 +123,17 @@ class DataManipTests: XCTestCase {
         let res = BinaryTree.prettyPrintV2(a)
         XCTAssertEqual(["--3", "  |--2", "  |  |-- /-", "  |  '-- /-", "  '--1", "    |-- /-", "    '-- /-"], res, "")
     }
+    
+    func testpp2Big(){
+        let a = BinaryTree(n:1)
+        let b = BinaryTree(n:2)
+        let c = BinaryTree(n:3)
+        let d = BinaryTree(n:4)
+        c.left = d
+        a.left = b
+        a.right = c
+        a.printMeAllTheStuff()
+    }
 
     
     func testPerformanceExample() {

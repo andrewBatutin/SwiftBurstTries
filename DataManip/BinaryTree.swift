@@ -81,6 +81,10 @@ class BinaryTree<T:Comparable> {
     }
     
     
+    func printMeAllTheStuff(){
+        BinaryTree.prettyPrintV2(self).map{println($0)}
+    }
+    
     class func prettyPrintV2(tree:BinaryTree<T>) ->[String]{
         switch(tree.data, tree.left, tree.right) {
         case let (.Some(data), .Some(l), .Some(r)):
@@ -89,8 +93,8 @@ class BinaryTree<T:Comparable> {
             let res = ["--\(data)"] + left + BinaryTree.leftLeafProcess(right)
             return res
         case let (.Some(data), .Some(l), .None):
-            var left = BinaryTree.prettyPrintV2(l).map{"  |" + $0}
-            let res = ["--\(data)"] + left + ["  '-- /-"]
+            var left = BinaryTree.prettyPrintV2(l).map{"   |" + $0}
+            let res = ["--\(data)"] + left + ["   '-- /-"]
             return res
         case let (.Some(data), .None, .Some(r)):
             var right = BinaryTree.prettyPrintV2(r)
