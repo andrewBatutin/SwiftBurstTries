@@ -15,6 +15,10 @@
 		7B451C651A2CBDAF008332AF /* DataManipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B451C641A2CBDAF008332AF /* DataManipTests.swift */; };
 		7B451C6F1A2CBDC5008332AF /* DataManipPlgrnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B451C6E1A2CBDC5008332AF /* DataManipPlgrnd.swift */; };
 		7B451C701A2CBDC5008332AF /* DataManipPlgrnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B451C6E1A2CBDC5008332AF /* DataManipPlgrnd.swift */; };
+		7B460F3C1A3B25E000A1EAF1 /* FuncAsTheyAre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B460F3B1A3B25E000A1EAF1 /* FuncAsTheyAre.swift */; };
+		7B460F3D1A3B25E000A1EAF1 /* FuncAsTheyAre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B460F3B1A3B25E000A1EAF1 /* FuncAsTheyAre.swift */; };
+		7B60F5691A3B332C0003B08C /* SumTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B60F5681A3B332C0003B08C /* SumTest.c */; };
+		7B60F56A1A3B332C0003B08C /* SumTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B60F5681A3B332C0003B08C /* SumTest.c */; };
 		7B6678A71A31DBE300C631F6 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6678A61A31DBE300C631F6 /* BinaryTree.swift */; };
 		7B6678A81A31DBE300C631F6 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6678A61A31DBE300C631F6 /* BinaryTree.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +45,10 @@
 		7B451C631A2CBDAF008332AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B451C641A2CBDAF008332AF /* DataManipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManipTests.swift; sourceTree = "<group>"; };
 		7B451C6E1A2CBDC5008332AF /* DataManipPlgrnd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManipPlgrnd.swift; sourceTree = "<group>"; };
+		7B460F3B1A3B25E000A1EAF1 /* FuncAsTheyAre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncAsTheyAre.swift; sourceTree = "<group>"; };
+		7B60F5661A3B332B0003B08C /* DataManip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataManip-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B60F5671A3B332C0003B08C /* DataManipTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataManipTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B60F5681A3B332C0003B08C /* SumTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SumTest.c; sourceTree = "<group>"; };
 		7B6678A61A31DBE300C631F6 /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +99,10 @@
 				7B451C4C1A2CBDAF008332AF /* Supporting Files */,
 				7B451C6E1A2CBDC5008332AF /* DataManipPlgrnd.swift */,
 				7B6678A61A31DBE300C631F6 /* BinaryTree.swift */,
+				7B460F3B1A3B25E000A1EAF1 /* FuncAsTheyAre.swift */,
+				7B60F5681A3B332C0003B08C /* SumTest.c */,
+				7B60F5661A3B332B0003B08C /* DataManip-Bridging-Header.h */,
+				7B60F5671A3B332C0003B08C /* DataManipTests-Bridging-Header.h */,
 			);
 			path = DataManip;
 			sourceTree = "<group>";
@@ -224,6 +236,8 @@
 				7B451C511A2CBDAF008332AF /* ViewController.swift in Sources */,
 				7B451C6F1A2CBDC5008332AF /* DataManipPlgrnd.swift in Sources */,
 				7B451C4F1A2CBDAF008332AF /* AppDelegate.swift in Sources */,
+				7B460F3C1A3B25E000A1EAF1 /* FuncAsTheyAre.swift in Sources */,
+				7B60F5691A3B332C0003B08C /* SumTest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B460F3D1A3B25E000A1EAF1 /* FuncAsTheyAre.swift in Sources */,
 				7B451C701A2CBDC5008332AF /* DataManipPlgrnd.swift in Sources */,
+				7B60F56A1A3B332C0003B08C /* SumTest.c in Sources */,
 				7B451C651A2CBDAF008332AF /* DataManipTests.swift in Sources */,
 				7B6678A81A31DBE300C631F6 /* BinaryTree.swift in Sources */,
 			);
@@ -350,10 +366,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = DataManip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataManip/DataManip-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -362,10 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = DataManip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataManip/DataManip-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
@@ -374,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +407,7 @@
 				INFOPLIST_FILE = DataManipTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataManip/DataManipTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataManip.app/DataManip";
 			};
@@ -395,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -403,6 +426,7 @@
 				INFOPLIST_FILE = DataManipTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataManip/DataManipTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataManip.app/DataManip";
 			};

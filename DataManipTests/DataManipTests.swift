@@ -9,6 +9,7 @@
 import UIKit
 import XCTest
 
+
 class DataManipTests: XCTestCase {
     
     var collecionOdTestData:[MobileCarouselViewerModel] = []
@@ -69,58 +70,38 @@ class DataManipTests: XCTestCase {
         
     }
     
-    func testBinaryTreePrint(){
-        let a = BinaryTree(n:3)
-        a.prettyPrint()
-        XCTAssertEqual(3, a.data!, "")
-    }
-
-    func testBinaryTreePrintMany(){
-        let a = BinaryTree(n:3)
-        let b = BinaryTree(n:2)
-        let c = BinaryTree(n:1)
-        a.left = b
-        a.right = c
-        let d = BinaryTree(n: 10)
-        d.left = a
-        d.right = BinaryTree(n: 4)
-        let ans =  d.prettyPrint()
-        println(ans.reduce("") {$0 + $1})
-        XCTAssertEqual(3, a.data!, "")
-    }
-    
     func testpp2NoneAll(){
         let a = BinaryTree(n:3)
         a.data = nil
-        let res = BinaryTree.prettyPrintV2(a)
+        let res =  prettyPrint(a)
         XCTAssertEqual(["-- /-"], res, "")
     }
     
     func testpp2NoneLR(){
         let a = BinaryTree(n:3)
-        let res = BinaryTree.prettyPrintV2(a)
+        let res =  prettyPrint(a)
         XCTAssertEqual(["--3", "  |-- /-", "  '-- /-"], res, "")
     }
 
     func testpp2NoneL(){
         let a = BinaryTree(n:3)
         a.right = BinaryTree(n:2)
-        let res = BinaryTree.prettyPrintV2(a)
+        let res =  prettyPrint(a)
         XCTAssertEqual(["--3", "  |-- /-", "  '--2", "    |-- /-", "    '-- /-"], res, "")
     }
 
     func testpp2NoneR(){
         let a = BinaryTree(n:3)
         a.left = BinaryTree(n:2)
-        let res = BinaryTree.prettyPrintV2(a)
-        XCTAssertEqual(["--3", "  |--2", "  |  |-- /-", "  |  '-- /-", "  '-- /-"], res, "")
+        let res =  prettyPrint(a)
+        XCTAssertEqual(["--3", "  |--2", "  |  |-- /-", "    |  '-- /-", "    '-- /-"], res, "")
     }
 
     func testpp2AllIn(){
         let a = BinaryTree(n:3)
         a.left = BinaryTree(n:2)
         a.right = BinaryTree(n:1)
-        let res = BinaryTree.prettyPrintV2(a)
+        let res =  prettyPrint(a)
         XCTAssertEqual(["--3", "  |--2", "  |  |-- /-", "  |  '-- /-", "  '--1", "    |-- /-", "    '-- /-"], res, "")
     }
     
@@ -130,9 +111,16 @@ class DataManipTests: XCTestCase {
         let c = BinaryTree(n:3)
         let d = BinaryTree(n:4)
         c.left = d
+        
+        let ff =  addCustom()
         a.left = b
         a.right = c
         a.printMeAllTheStuff()
+    }
+    
+    func testCSum(){
+        let a = sumTest();
+        println(a)
     }
 
     
