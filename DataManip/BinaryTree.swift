@@ -80,7 +80,33 @@ class BinaryTree<T:Comparable> {
         return ["WTF"]
     }
     
-    func leftLeafProcess(array:Array<String>)->Array<String>{
+    
+    class func prettyPrintV2(tree:BinaryTree<T>) ->[String]{
+        switch(tree.data, tree.left, tree.right) {
+        case let (.Some(data), .Some(l), .Some(r)):
+            var left = BinaryTree.prettyPrintV2(l).map{"  |" + $0}
+            var right = BinaryTree.prettyPrintV2(r)
+            let res = ["--\(data)"] + left + BinaryTree.leftLeafProcess(right)
+            return res
+        case let (.Some(data), .Some(l), .None):
+            var left = BinaryTree.prettyPrintV2(l).map{"  |" + $0}
+            let res = ["--\(data)"] + left + ["  '-- /-"]
+            return res
+        case let (.Some(data), .None, .Some(r)):
+            var right = BinaryTree.prettyPrintV2(r)
+            var res = ["--\(data)"] + ["  |-- /-"] + BinaryTree.leftLeafProcess(right)
+            return res
+        case let (.Some(data), .None, .None):
+            var res = ["--\(data)"] + ["  |-- /-"] + ["  '-- /-"]
+            return res
+        case let (.None, .None, .None):
+            return ["-- /-"]
+        default:
+            return ["Default!?"]
+        }
+    }
+    
+    class func leftLeafProcess(array:[String])->[String]{
         if let (head,tail) = array.match {
             return ["  '" + head] + tail.map{"  " + $0}
         } else {

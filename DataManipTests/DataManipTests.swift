@@ -89,12 +89,41 @@ class DataManipTests: XCTestCase {
         XCTAssertEqual(3, a.data!, "")
     }
     
-    func testHeadTailPrint(){
-        let a = ["1", "2", "3"]
-        let o = BinaryTree(n:3)
-        println(o.leftLeafProcess(a))
-        
+    func testpp2NoneAll(){
+        let a = BinaryTree(n:3)
+        a.data = nil
+        let res = BinaryTree.prettyPrintV2(a)
+        XCTAssertEqual(["-- /-"], res, "")
     }
+    
+    func testpp2NoneLR(){
+        let a = BinaryTree(n:3)
+        let res = BinaryTree.prettyPrintV2(a)
+        XCTAssertEqual(["--3", "  |-- /-", "  '-- /-"], res, "")
+    }
+
+    func testpp2NoneL(){
+        let a = BinaryTree(n:3)
+        a.right = BinaryTree(n:2)
+        let res = BinaryTree.prettyPrintV2(a)
+        XCTAssertEqual(["--3", "  |-- /-", "  '--2", "    |-- /-", "    '-- /-"], res, "")
+    }
+
+    func testpp2NoneR(){
+        let a = BinaryTree(n:3)
+        a.left = BinaryTree(n:2)
+        let res = BinaryTree.prettyPrintV2(a)
+        XCTAssertEqual(["--3", "  |--2", "  |  |-- /-", "  |  '-- /-", "  '-- /-"], res, "")
+    }
+
+    func testpp2AllIn(){
+        let a = BinaryTree(n:3)
+        a.left = BinaryTree(n:2)
+        a.right = BinaryTree(n:1)
+        let res = BinaryTree.prettyPrintV2(a)
+        XCTAssertEqual(["--3", "  |--2", "  |  |-- /-", "  |  '-- /-", "  '--1", "    |-- /-", "    '-- /-"], res, "")
+    }
+
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
